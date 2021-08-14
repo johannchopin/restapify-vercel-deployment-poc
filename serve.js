@@ -1,11 +1,9 @@
 const path = require('path')
 const Restapify = require('restapify').default
 
-const apiFolderPath = path.resolve(__dirname, './api')
+const rootDir = path.resolve(__dirname, './api')
 
-const rpfy = new Restapify({
-  rootDir: apiFolderPath
-})
+const rpfy = new Restapify({ rootDir })
 
 console.log("route", rpfy.getServedRoutes());
 
