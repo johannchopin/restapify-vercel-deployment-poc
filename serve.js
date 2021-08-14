@@ -5,7 +5,7 @@ const apiFolderPath = path.resolve(__dirname, './apis')
 
 const rpfy = new Restapify({
   rootDir: apiFolderPath,
-  port: 5000,
+  port: 5001,
 })
 
 console.log("route", rpfy.getServedRoutes());
