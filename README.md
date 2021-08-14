@@ -1,7 +1,3 @@
-# restapify-vercel-deployment-poc
+# restapify-vercel-template
 
-Serve the API by using:
-
-```bash
-yarn restapify serve api/
-```
+Template to deploy your restapify mocked API on the [Vercel](https://vercel.com/) platerform.
